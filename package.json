@@ -1,0 +1,41 @@
+{
+  "name": "creating_custom_seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.dev.js --progress --profile --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "2.0.1",
+    "@angular/compiler": "2.0.1",
+    "@angular/compiler-cli": "0.6.3",
+    "@angular/core": "2.0.1",
+    "@angular/forms": "2.0.1",
+    "@angular/http": "2.0.1",
+    "@angular/platform-browser": "2.0.1",
+    "@angular/platform-browser-dynamic": "2.0.1",
+    "@angular/platform-server": "2.0.1",
+    "@angular/router": "3.0.1",
+    "@angular/upgrade": "2.0.1",
+    "core-js": "^2.5.1",
+    "rxjs": "^5.5.3",
+    "zone.js": "^0.8.18"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.43",
+    "@types/node": "^8.0.53",
+    "angular2-router-loader": "^0.3.5",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.4.1",
+    "del-cli": "^1.1.0",
+    "html-loader": "^0.5.1",
+    "raw-loader": "^0.5.1",
+    "typescript": "^2.6.2",
+    "webpack": "^2.1.0-beta.21",
+    "webpack-merge": "^4.1.1"
+  }
+}
